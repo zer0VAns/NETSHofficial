@@ -1,0 +1,58 @@
+.slick-prev,
+.slick-next {
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+}
+.slick-dots li button:before {
+  color: #3b82f6; 
+}
+
+.slick-prev,
+.slick-next {
+  z-index: 10; 
+  width: 40px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.slick-prev {
+  left: 10px; 
+}
+
+.slick-next {
+  right: 10px; 
+}
+
+.slick-prev:before,
+.slick-next:before {
+  display: none; 
+}
+
+.slick-prev button,
+.slick-next button {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  background: none;
+  border: none;
+}
+
+.slick-dots li button:before {
+  color: #3b82f6; 
+  font-size: 12px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #1e40af; 
+}
